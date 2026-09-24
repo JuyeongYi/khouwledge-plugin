@@ -1,0 +1,17 @@
+{
+  "name": "khouwledge",
+  "owner": {
+    "name": "JooyoungLee",
+    "email": "jooyounglee93@gmail.com"
+  },
+  "metadata": {
+    "description": "Houdini knowledge MCP (khouwledge) for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "khouwledge",
+      "source": "./plugins/khouwledge",
+      "description": "Connects the khouwledge MCP server and ships the skills that say how to use it: khouwledge-query (Houdini docs lookup) and khouwledge-judge (image judgement with the local vision model)."
+    }
+  ]
+}

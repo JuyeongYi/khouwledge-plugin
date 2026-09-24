@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "khouwledge": {
+      "type": "http",
+      "url": "http://${KHOUWLEDGE_HOST:-192.168.0.11}:${KHOUWLEDGE_PORT:-3000}/mcp",
+      "headers": {
+        "Authorization": "Bearer ${KHOUWLEDGE_KEY}",
+        "X-KH-Session": "${KHOUWLEDGE_SESSION:-unnamed}"
+      }
+    }
+  }
+}

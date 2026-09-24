@@ -1,0 +1,10 @@
+{
+  "name": "khouwledge",
+  "version": "0.1.0",
+  "description": "Houdini knowledge MCP server connection plus two usage skills: khouwledge-query (docs lookup) and khouwledge-judge (image judgement).",
+  "author": {
+    "name": "JooyoungLee",
+    "email": "jooyounglee93@gmail.com"
+  },
+  "keywords": ["houdini", "vex", "mcp"]
+}
