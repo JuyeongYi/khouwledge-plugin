@@ -1,10 +1,37 @@
 {
   "name": "khouwledge",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Houdini knowledge MCP server connection plus two usage skills: khouwledge-query (docs lookup) and khouwledge-judge (image judgement).",
   "author": {
     "name": "JooyoungLee",
     "email": "jooyounglee93@gmail.com"
   },
-  "keywords": ["houdini", "vex", "mcp"]
+  "keywords": ["houdini", "vex", "mcp"],
+  "userConfig": {
+    "key": {
+      "type": "string",
+      "title": "API key",
+      "description": "Contents of ~/.khouwledge/api-key on the server machine.",
+      "sensitive": true,
+      "required": true
+    },
+    "host": {
+      "type": "string",
+      "title": "Server host",
+      "description": "khouwledge server address. 127.0.0.1 on the server machine itself.",
+      "default": "192.168.0.11"
+    },
+    "port": {
+      "type": "string",
+      "title": "Server port",
+      "description": "khouwledge server port.",
+      "default": "3000"
+    },
+    "session": {
+      "type": "string",
+      "title": "Session name",
+      "description": "Name of this machine in the server's trajectory log, e.g. jylee-pc.",
+      "default": "unnamed"
+    }
+  }
 }
