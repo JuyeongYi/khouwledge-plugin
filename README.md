@@ -31,7 +31,7 @@ Claude Code 안에서:
 | `port` | 포트 | `3000` |
 | `session` | 궤적 기록에 남을 이 기계의 이름 (예 `jylee-pc`) | `unnamed` |
 
-The server only answers on the local network; the default `192.168.0.11:3000` is still correct. Away from home this plugin cannot connect directly (a Tailscale address gets 403), so SSH into the server machine and work there. Direct remote use would need the server setting `mcp_allowed_networks` to include `100.64.0.0/10`, which is the server admin's decision.
+서버는 같은 로컬 네트워크에서만 응답한다. 기본값 `192.168.0.11:3000`은 지금도 맞다. 집 밖에서는 이 플러그인으로 직접 붙을 수 없다(Tailscale 주소로 요청하면 403). 원격에서는 서버 기계에 SSH로 들어가 거기서 작업한다. 원격 직접 접속이 꼭 필요하면 서버 설정 `mcp_allowed_networks`에 `100.64.0.0/10`을 넣어야 하는데, 그것은 서버 관리자의 결정이다.
 
 셸에서 한 번에:
 
