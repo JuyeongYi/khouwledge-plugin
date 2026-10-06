@@ -31,6 +31,8 @@ Claude Code 안에서:
 | `port` | 포트 | `3000` |
 | `session` | 궤적 기록에 남을 이 기계의 이름 (예 `jylee-pc`) | `unnamed` |
 
+The server only answers on the local network; the default `192.168.0.11:3000` is still correct. Away from home this plugin cannot connect directly (a Tailscale address gets 403), so SSH into the server machine and work there. Direct remote use would need the server setting `mcp_allowed_networks` to include `100.64.0.0/10`, which is the server admin's decision.
+
 셸에서 한 번에:
 
 ```bash
