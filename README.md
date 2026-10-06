@@ -8,7 +8,7 @@ Claude Code 플러그인. Houdini 지식 MCP 서버([khouwledge](https://github.
 plugins/khouwledge/
   .claude-plugin/plugin.json
   .mcp.json                          ← 서버 연결 (userConfig 넷)
-  skills/khouwledge-query/SKILL.md   ← 문서 조회: search / get_* / report_error
+  skills/khouwledge-query/SKILL.md   ← 문서 조회: search / query_* / report_error
   skills/khouwledge-judge/SKILL.md   ← 이미지 판정: ask_* 5개
 ```
 
