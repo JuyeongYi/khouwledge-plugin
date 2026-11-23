@@ -20,7 +20,6 @@ For any Houdini question, **call `search` before guessing.** Never trust memory 
 
 ## Reading results
 - Ranking is deliberately tilted **core nodes > guide pages > Labs / third party**. For a conceptual question the right page may sit at rank 3–7. Read all ten lines, not just the first.
-- `[crowds/excluded]` and `[…/low]` mean a low-priority domain, not a wrong answer.
 - Some entities come **from the installed Houdini, not from the docs** (VEX header functions, Python modules outside HOM, OpenCL kernels). They may have a signature and no prose. When the origin is a **package** (KineFX, APEX, …) it is not part of the base install and may be missing on the user's machine — check the package is there before relying on it.
 
 ## What it does not know (do not bluff)
